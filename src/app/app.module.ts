@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -23,7 +23,6 @@ import { ArticuloComponent } from './components/articulo/articulo.component';
       { path: 'articulos', component: ArticuloComponent },
     ]),
   ],
-  exports: [RouterModule],
   declarations: [
     AppComponent,
     InicioComponent,

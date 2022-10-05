@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 //import { ArticulosFamilias } from '../../models/articulo-familia';
 //llamamos al servicio de articulos flias
 //import { MockArtFliaService } from '../../services/mock-art-flia.service';
-import { ArtFliaService } from '../../services/art-flia.service';
 //no llamamos a la tabla construida si no que llamamos al tipo de elemento
 import { ArticuloFamilia } from '../../models/articulo-familia';
+import { ArtFliaService } from '../../services/art-flia.service';
 
 @Component({
   selector: 'app-articulos-flias',
